@@ -1,0 +1,50 @@
+h1 {
+	color: #ff8000;
+	text-align: center;
+	font-family: 'Great Vibes', cursive
+}
+
+a:link, a:visited
+	{
+		background-color: black;
+		color:white;
+		text-decoration: none;
+		padding: 10px;
+		text-align: center;
+		display: inline-block;
+		font-family: verdana;
+	}
+
+
+a:hover, a:active
+	{
+		color: #a33939;
+		background-color: #e3b8b8;
+		text-decoration: underline;
+	}
+
+.container {
+ 		display: flex;
+  		align-items: center;
+  		justify-content: center;
+		}
+
+ol {
+	list-style-position: outside; padding-left: 150px;
+	text-align: middle;
+	font-family: lucida console;
+	font-size: 20px
+}
+
+p {
+	font-family: garamond;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
